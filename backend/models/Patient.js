@@ -15,8 +15,13 @@ const patientSchema = new mongoose.Schema({
         enum: ['Emergency', 'Urgent', 'Normal'],
     },
     riskFlag: {
-        type: String, // As per prompt requirement
+        type: Boolean,
         required: true,
+    },
+    status: {
+        type: String,
+        enum: ['Waiting', 'Completed'],
+        default: 'Waiting',
     },
     department: {
         type: String,
