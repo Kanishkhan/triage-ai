@@ -1,0 +1,13 @@
+{
+    "name": "triage-ai-root",
+    "version": "1.0.0",
+    "description": "Unified runner for TRIAGE.AI",
+    "scripts": {
+        "dev:backend": "npm run dev --prefix backend",
+        "dev:frontend": "npm run dev --prefix frontend",
+        "dev": "npx concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
+    },
+    "devDependencies": {
+        "concurrently": "^9.2.1"
+    }
+}
