@@ -2,6 +2,8 @@
 
 **The state-of-the-art AI-powered clinical lifecycle management system for modern emergency care.**
 
+### 🚀 [Live Demo](https://triage-43yjg076e-yaswanth1832ks-projects.vercel.app/)
+
 TRIAGE.AI is not just a triage tool; it's a complete **Clinical Hospital Operating System** designed to eliminate bottlenecks in emergency departments. By integrating an advanced **Clinical Tiered-Scoring Engine (CTSE)**, it ensures every patient is prioritized with pinpoint accuracy based on symptom intensity and medical risk.
 
 ---
